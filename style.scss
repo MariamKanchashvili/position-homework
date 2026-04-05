@@ -168,8 +168,9 @@ button:hover{background-color: aqua;}
 
 
 @media screen and (max-width:878px){
-    .second-side{ gap: 4px; width: 200px;}
-     .card-wrapper img{top:-50px}
+    .second-side{ gap: 5px; font-size: 14px;}
+     .card-wrapper img{top:-50px; width: 200px;}
+     .first-side{flex:0 0 230px}
 }
 
 
@@ -177,10 +178,10 @@ button:hover{background-color: aqua;}
      .card-wrapper img{top:-50px}
 }
 @media screen and (max-width:760px){
-    .card-wrapper{gap: 0;}
-      .second-side{position: relative;right: 25px;}
+    .card-wrapper{gap: 5px; img{width: 150px;}}
+      .second-side{position: relative;right: 25px;margin-left: -18px;}
       .click{bottom:0}
-      .first-side{flex:0 0 230px}
+      .first-side{flex:0 0 220px}
 }
 @media screen and (max-width:520px){
     .nav-menu{display: none;}

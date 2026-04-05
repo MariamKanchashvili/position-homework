@@ -190,11 +190,12 @@ body {
 }
 @media screen and (max-width: 878px) {
   .second-side {
-    gap: 4px;
-    width: 200px;
+    gap: 5px;
+    font-size: 14px;
   }
   .card-wrapper img {
     top: -50px;
+    width: 200px;
   }
 }
 @media screen and (max-width: 817px) {
@@ -204,11 +205,15 @@ body {
 }
 @media screen and (max-width: 760px) {
   .card-wrapper {
-    gap: 0;
+    gap: 5px;
+  }
+  .card-wrapper img {
+    width: 150px;
   }
   .second-side {
     position: relative;
     right: 25px;
+    margin-left: -18px;
   }
   .click {
     bottom: 0;
@@ -226,10 +231,19 @@ body {
   }
   .card-wrapper img {
     width: 200px;
-    top: -75px;
+    top: -63px;
   }
   .card {
     width: 400px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .card-wrapper img {
+    width: 169px;
+    top: -60px;
+  }
+  .second-side {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 375x) {
