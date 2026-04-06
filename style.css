@@ -172,7 +172,7 @@ body {
   background-color: aqua;
 }
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   .card-wrapper img {
     top: -50px;
   }
@@ -197,6 +197,9 @@ body {
     top: -50px;
     width: 200px;
   }
+  .first-side {
+    flex: 0 0 230px;
+  }
 }
 @media screen and (max-width: 817px) {
   .card-wrapper img {
@@ -219,7 +222,7 @@ body {
     bottom: 0;
   }
   .first-side {
-    flex: 0 0 230px;
+    flex: 0 0 220px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -255,4 +258,4 @@ body {
     width: 150px;
     top: -85px;
   }
-}/*# sourceMappingURL=style.css.map */
+}# sourceMappingURL=style.css.map */
